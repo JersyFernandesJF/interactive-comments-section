@@ -13,7 +13,7 @@
   --neutral-white: hsl(0, 0%, 100%);
 }
 
-body{
+body {
   margin: 0;
   padding: 0;
   background-color: var(--neutral-light-gray);
@@ -52,4 +52,47 @@ button {
   align-items: center;
   margin: 30px 15px;
   font-size: 14px;
+}
+
+
+.comment-rate {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  column-gap: 20px;
+  color: var(--primary-moderate-blue);
+  background-color: var(--neutral-light-gray);
+  border-radius: 10px;
+  padding: 0px 7px;
+  height: 45px;
+}
+
+.comment,
+.reply-section,
+.add-comment {
+  background-color: var(--neutral-white);
+  padding: 5px 20px;
+  margin: 20px 0px;
+  border-radius: 10px;
+  line-height: 26px;
+  max-width: 450px;
+}
+
+.user-info,
+.comment-rate, 
+.comment-info,
+.send-info,
+.reply {
+  display: flex;
+}
+
+
+.comment-rate img {
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
