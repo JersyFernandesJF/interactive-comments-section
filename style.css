@@ -43,3 +43,13 @@ button {
   min-height: 40px;
   cursor: pointer;
 }
+
+.app {
+  font-family: 'Rubik', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 15px;
+  font-size: 14px;
+}
