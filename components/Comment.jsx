@@ -1,3 +1,5 @@
+import React from 'react'
+
 export default function Comment(props) {
   const [score, setScore] = React.useState(props.counter)
 
